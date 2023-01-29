@@ -1,6 +1,6 @@
 ```swift
 struct TeamPuzel {
-    let
+    static let
     favoriteLanguage = "Swift",
     unfinishedProjectCount = "A lot 😅",
     currentlyWorkingOn = [
