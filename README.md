@@ -7,5 +7,3 @@ struct Lua: ~Copyable {
     }
 }
 ```
-
-I now put all new active projects here https://gitea.com/TeamPuzel
