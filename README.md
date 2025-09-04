@@ -1,9 +1,9 @@
-```swift
-typealias TeamPuzel = Lua
+```strawberry
+type TeamPuzel = Lua
 
-struct Lua: ~Copyable {
-    enum Languages {
-        case swift, haskell, rust, zig, lua, java, kotlin, c, cpp, go, typeScript, arm64
+type Lua = struct {
+    type Languages = enum {
+        Swift, Haskell, Rust, Zig, Lua, Java, Kotlin, C, CXX, Go, TypeScript, Arm64
     }
 }
 ```
